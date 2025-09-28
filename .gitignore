@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Local data exports
+out/
+data/
