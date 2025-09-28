@@ -1,0 +1,23 @@
+calendar:
+  calendar_id: "primary"
+  credentials_path: "~/service_account.json"
+  filter_pattern: "Training"
+
+whatsapp:
+  token: "YOUR_WHATSAPP_TOKEN"
+  phone_number_id: "1234567890"
+  chat_id: "15551234567"
+  graph_api_version: "v19.0"
+
+players:
+  "+15551230001": "Alice"
+  "+15551230002": "Bob"
+  "+15551230003": "Charlie"
+
+poll_options:
+  - "✅ Attending"
+  - "❌ Not attending"
+  - "❓ Maybe"
+
+storage_dir: "./data"
+results_dir: "./out"
